@@ -1,0 +1,81 @@
+feature_id	feature_name_orginal	time_freq	first_part	measure	sensor	Direction	accelration	Signal	feature_name
+1	tBodyAcc-mean()-X	t	time	mean	accelerometer	X	body		time.body.accelerometer.mean.X
+2	tBodyAcc-mean()-Y	t	time	mean	accelerometer	Y	body		time.body.accelerometer.mean.Y
+3	tBodyAcc-mean()-Z	t	time	mean	accelerometer	Z	body		time.body.accelerometer.mean.Z
+4	tBodyAcc-std()-X	t	time	stdev	accelerometer	X	body		time.body.accelerometer.stdev.X
+5	tBodyAcc-std()-Y	t	time	stdev	accelerometer	Y	body		time.body.accelerometer.stdev.Y
+6	tBodyAcc-std()-Z	t	time	stdev	accelerometer	Z	body		time.body.accelerometer.stdev.Z
+41	tGravityAcc-mean()-X	t	time	mean	accelerometer	X	Gravity		time.Gravity.accelerometer.mean.X
+42	tGravityAcc-mean()-Y	t	time	mean	accelerometer	Y	Gravity		time.Gravity.accelerometer.mean.Y
+43	tGravityAcc-mean()-Z	t	time	mean	accelerometer	Z	Gravity		time.Gravity.accelerometer.mean.Z
+44	tGravityAcc-std()-X	t	time	stdev	accelerometer	X	Gravity		time.Gravity.accelerometer.stdev.X
+45	tGravityAcc-std()-Y	t	time	stdev	accelerometer	Y	Gravity		time.Gravity.accelerometer.stdev.Y
+46	tGravityAcc-std()-Z	t	time	stdev	accelerometer	Z	Gravity		time.Gravity.accelerometer.stdev.Z
+81	tBodyAccJerk-mean()-X	t	time	mean	accelerometer	X	body	jerk	time.body.accelerometer.mean.X
+82	tBodyAccJerk-mean()-Y	t	time	mean	accelerometer	Y	body	jerk	time.body.accelerometer.mean.Y
+83	tBodyAccJerk-mean()-Z	t	time	mean	accelerometer	Z	body	jerk	time.body.accelerometer.mean.Z
+84	tBodyAccJerk-std()-X	t	time	stdev	accelerometer	X	body	jerk	time.body.accelerometer.stdev.X
+85	tBodyAccJerk-std()-Y	t	time	stdev	accelerometer	Y	body	jerk	time.body.accelerometer.stdev.Y
+86	tBodyAccJerk-std()-Z	t	time	stdev	accelerometer	Z	body	jerk	time.body.accelerometer.stdev.Z
+121	tBodyGyro-mean()-X	t	time	mean	gyroscope	X	body		time.body.gyroscope.mean.X
+122	tBodyGyro-mean()-Y	t	time	mean	gyroscope	Y	body		time.body.gyroscope.mean.Y
+123	tBodyGyro-mean()-Z	t	time	mean	gyroscope	Z	body		time.body.gyroscope.mean.Z
+124	tBodyGyro-std()-X	t	time	stdev	gyroscope	X	body		time.body.gyroscope.stdev.X
+125	tBodyGyro-std()-Y	t	time	stdev	gyroscope	Y	body		time.body.gyroscope.stdev.Y
+126	tBodyGyro-std()-Z	t	time	stdev	gyroscope	Z	body		time.body.gyroscope.stdev.Z
+161	tBodyGyroJerk-mean()-X	t	time	mean	gyroscope	X	body	jerk	time.body.gyroscope.mean.X
+162	tBodyGyroJerk-mean()-Y	t	time	mean	gyroscope	Y	body	jerk	time.body.gyroscope.mean.Y
+163	tBodyGyroJerk-mean()-Z	t	time	mean	gyroscope	Z	body	jerk	time.body.gyroscope.mean.Z
+164	tBodyGyroJerk-std()-X	t	time	stdev	gyroscope	X	body	jerk	time.body.gyroscope.stdev.X
+165	tBodyGyroJerk-std()-Y	t	time	stdev	gyroscope	Y	body	jerk	time.body.gyroscope.stdev.Y
+166	tBodyGyroJerk-std()-Z	t	time	stdev	gyroscope	Z	body	jerk	time.body.gyroscope.stdev.Z
+201	tBodyAccMag-mean()	t	time	mean	accelerometer		body	magnitude	time.body.accelerometer.mean
+202	tBodyAccMag-std()	t	time	stdev	accelerometer		body	magnitude	time.body.accelerometer.stdev
+214	tGravityAccMag-mean()	t	time	mean	accelerometer		Gravity	magnitude	time.Gravity.accelerometer.mean
+215	tGravityAccMag-std()	t	time	stdev	accelerometer		Gravity	magnitude	time.Gravity.accelerometer.stdev
+227	tBodyAccJerkMag-mean()	t	time	mean	accelerometer		body	jerkmag	time.body.accelerometer.mean
+228	tBodyAccJerkMag-std()	t	time	stdev	accelerometer		body	jerkmag	time.body.accelerometer.stdev
+240	tBodyGyroMag-mean()	t	time	mean	gyroscope		body	magnitude	time.body.gyroscope.mean
+241	tBodyGyroMag-std()	t	time	stdev	gyroscope		body	magnitude	time.body.gyroscope.stdev
+253	tBodyGyroJerkMag-mean()	t	time	mean	gyroscope		body	jerkmag	time.body.gyroscope.mean
+254	tBodyGyroJerkMag-std()	t	time	stdev	gyroscope		body	jerkmag	time.body.gyroscope.stdev
+266	fBodyAcc-mean()-X	f	frequency	mean	accelerometer	X	body		frequency.body.accelerometer.mean.X
+267	fBodyAcc-mean()-Y	f	frequency	mean	accelerometer	Y	body		frequency.body.accelerometer.mean.Y
+268	fBodyAcc-mean()-Z	f	frequency	mean	accelerometer	Z	body		frequency.body.accelerometer.mean.Z
+269	fBodyAcc-std()-X	f	frequency	stdev	accelerometer	X	body		frequency.body.accelerometer.stdev.X
+270	fBodyAcc-std()-Y	f	frequency	stdev	accelerometer	Y	body		frequency.body.accelerometer.stdev.Y
+271	fBodyAcc-std()-Z	f	frequency	stdev	accelerometer	Z	body		frequency.body.accelerometer.stdev.Z
+294	fBodyAcc-meanFreq()-X	f	frequency	mean	accelerometer	X	body		frequency.body.accelerometer.mean.X
+295	fBodyAcc-meanFreq()-Y	f	frequency	mean	accelerometer	Y	body		frequency.body.accelerometer.mean.Y
+296	fBodyAcc-meanFreq()-Z	f	frequency	mean	accelerometer	Z	body		frequency.body.accelerometer.mean.Z
+345	fBodyAccJerk-mean()-X	f	frequency	mean	accelerometer	X	body	jerk	frequency.body.accelerometer.mean.X
+346	fBodyAccJerk-mean()-Y	f	frequency	mean	accelerometer	Y	body	jerk	frequency.body.accelerometer.mean.Y
+347	fBodyAccJerk-mean()-Z	f	frequency	mean	accelerometer	Z	body	jerk	frequency.body.accelerometer.mean.Z
+348	fBodyAccJerk-std()-X	f	frequency	stdev	accelerometer	X	body	jerk	frequency.body.accelerometer.stdev.X
+349	fBodyAccJerk-std()-Y	f	frequency	stdev	accelerometer	Y	body	jerk	frequency.body.accelerometer.stdev.Y
+350	fBodyAccJerk-std()-Z	f	frequency	stdev	accelerometer	Z	body	jerk	frequency.body.accelerometer.stdev.Z
+373	fBodyAccJerk-meanFreq()-X	f	frequency	mean	accelerometer	X	body	jerk	frequency.body.accelerometer.mean.X
+374	fBodyAccJerk-meanFreq()-Y	f	frequency	mean	accelerometer	Y	body	jerk	frequency.body.accelerometer.mean.Y
+375	fBodyAccJerk-meanFreq()-Z	f	frequency	mean	accelerometer	Z	body	jerk	frequency.body.accelerometer.mean.Z
+424	fBodyGyro-mean()-X	f	frequency	mean	gyroscope	X	body		frequency.body.gyroscope.mean.X
+425	fBodyGyro-mean()-Y	f	frequency	mean	gyroscope	Y	body		frequency.body.gyroscope.mean.Y
+426	fBodyGyro-mean()-Z	f	frequency	mean	gyroscope	Z	body		frequency.body.gyroscope.mean.Z
+427	fBodyGyro-std()-X	f	frequency	stdev	gyroscope	X	body		frequency.body.gyroscope.stdev.X
+428	fBodyGyro-std()-Y	f	frequency	stdev	gyroscope	Y	body		frequency.body.gyroscope.stdev.Y
+429	fBodyGyro-std()-Z	f	frequency	stdev	gyroscope	Z	body		frequency.body.gyroscope.stdev.Z
+452	fBodyGyro-meanFreq()-X	f	frequency	mean	gyroscope	X	body		frequency.body.gyroscope.mean.X
+453	fBodyGyro-meanFreq()-Y	f	frequency	mean	gyroscope	Y	body		frequency.body.gyroscope.mean.Y
+454	fBodyGyro-meanFreq()-Z	f	frequency	mean	gyroscope	Z	body		frequency.body.gyroscope.mean.Z
+503	fBodyAccMag-mean()	f	frequency	mean	accelerometer		body	magnitude	frequency.body.accelerometer.mean
+504	fBodyAccMag-std()	f	frequency	stdev	accelerometer		body	magnitude	frequency.body.accelerometer.stdev
+513	fBodyAccMag-meanFreq()	f	frequency	mean	accelerometer		body	magnitude	frequency.body.accelerometer.mean
+516	FBodyBodyAccJerkMag-mean()	f	frequency	mean	accelerometer		body	jerkmag	frequency.body.accelerometer.mean
+517	fBodyBodyAccJerkMag-std()	f	frequency	stdev	accelerometer		body	jerkmag	frequency.body.accelerometer.stdev
+526	fBodyBodyAccJerkMag-meanFreq()	f	frequency	mean	accelerometer		body	jerkmag	frequency.body.accelerometer.mean
+529	fBodyBodyGyroMag-mean()	f	frequency	mean	gyroscope		body	magnitude	frequency.body.gyroscope.mean
+530	fBodyBodyGyroMag-std()	f	frequency	stdev	gyroscope		body	magnitude	frequency.body.gyroscope.stdev
+539	fBodyBodyGyroMag-meanFreq()	f	frequency	mean	gyroscope		body	magnitude	frequency.body.gyroscope.mean
+542	fBodyBodyGyroJerkMag-mean()	f	frequency	mean	gyroscope		body	jerkmag	frequency.body.gyroscope.mean
+543	fBodyBodyGyroJerkMag-std()	f	frequency	stdev	gyroscope		body	jerkmag	frequency.body.gyroscope.stdev
+552	fBodyBodyGyroJerkMag-meanFreq()	f	frequency	mean	gyroscope		body	jerkmag	frequency.body.gyroscope.mean
+

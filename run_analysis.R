@@ -53,9 +53,10 @@ x_test <- read.table("./UCI_HAR_Dataset/test/x_test.txt",sep =" ",
 tot_subject = rbind(subject_train,subject_test)
 tot_y <- rbind(y_train,y_test)
 tot_x <- rbind(x_train,x_test)
-tot_df = data.frame(tot_subject,tot_y,tot_x)
+tot_df = data.frame(tot_y,tot_subject,tot_x)
 tot_df_merge <- merge(x=tot_df,y=activity_labels, by.x="activity_id",by.y="activity_id")
-cols <- mod_features$feature_id
+#adding 3 as the modified file contains the activity_id, activity_lablel and subject_id in the begining
+cols <- mod_features$feature_id + 2
 final_data <- data.frame(tot_df_merge[,1],tot_df_merge[,564],tot_df_merge[,2],tot_df_merge[,cols])
 col_names <- c("activity_id","activity_label","subject_id",mod_features$feature_name)
 names(final_data) <- col_names
