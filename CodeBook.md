@@ -15,12 +15,19 @@ tidy_data.txt file contains 10299 observations with 82 variables ( columns )
 Following are the columns in tidy_data.txt
 
 1 activity_id , integer
+
 2 activity_label , character
+
 3 subject_id , integer
+
 4 time.body.accelerometer.mean.X , numeric
+
 5 time.body.accelerometer.mean.Y , numeric
+
 6 time.body.accelerometer.mean.Z , numeric
+
 7 time.body.accelerometer.stdev.X , numeric
+
 8 time.body.accelerometer.stdev.Y , numeric
 9 time.body.accelerometer.stdev.Z , numeric
 10 time.Gravity.accelerometer.mean.X , numeric
